@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: "SUIT-Regular";
+}
+
+/* body 스타일 */
+html,
+body {
+    overflow: hidden;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* 캘린더 위의 해더 스타일(날짜가 있는 부분) */
+.fc-header-toolbar {
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.fc-day-sun {
+    color: red;
+}
+
+.fc-day-sat {
+    color: blue;
+}
+
+.fc-col-header-cell {
+    background-color: gray;
+}
+
+.fc-daygrid-day-frame:hover {
+    background-color: #109972;
+}
+
+.todoCk {
+    background-color: #87D5AA;
+}
+
+.fc-dayGridMonth-button {
+    width: 100px;
+}
+
+.dayBtn {
+    position: absolute;
+}
